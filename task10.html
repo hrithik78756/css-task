@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task 10</title>
+   <style>
+      .grid {
+         display: grid;
+         grid-template-columns: 100px 100px 100px 100px;
+         grid-template-rows: 100px 100px 100px;
+         gap: 5px;
+      }
+
+      .grid img {
+         height: 100%;
+         width: 100%;
+      }
+
+      .item1 {
+         grid-row-start: 1;
+         grid-row-end: 3;
+      }
+
+      .item2 {
+         grid-column-start: 2;
+         grid-column-end: 3;
+         grid-row-start: 1;
+         grid-row-end: 2;
+      }
+
+      .item3 {
+         grid-column: 3;
+         grid-row: 1;
+         grid-row-start: 1;
+         grid-row-end: 3;
+      }
+
+      .item4 {
+         grid-column-start: 4;
+         grid-column-end: 5;
+         grid-row-start: 1;
+         grid-row-end: 2;
+      }
+
+      .item5 {
+         grid-column-start: 1;
+         grid-column-end: 2;
+         grid-row-start: 3;
+         grid-row-end: 4;
+      }
+
+      .item6 {
+         grid-column-start: 2;
+         grid-column-end: 3;
+         grid-row-start: 2;
+         grid-row-end: 4;
+      }
+
+      .item7 {
+         grid-column-start: 3;
+         grid-column-end: 4;
+         grid-row-start: 3;
+         grid-row-end: 4;
+      }
+
+      .item8 {
+         grid-row-start: 2;
+         grid-row-end: 4;    
+      }
+
+   </style>
+</head>
+
+<body>
+   <h1>Responsive image gallery</h1>
+   <div class="grid">
+      <img src="./assets/img/img1.jpg" alt="img1" class="item1">
+      <img src="./assets/img/img2.jpg" alt="img2" class="item2">
+      <img src="./assets/img/img3.jpg" alt="img3" class="item3">
+      <img src="./assets/img/img4.jpg" alt="img4" class="item4">
+      <img src="./assets/img/img5.jpg" alt="img5" class="item5">
+      <img src="./assets/img/img6.jpg" alt="img6" class="item6">
+      <img src="./assets/img/img7.jpg" alt="img7" class="item7">
+      <img src="./assets/img/img8.jpg" alt="img8" class="item8">
+   </div>
+</body>
+
+</html>
