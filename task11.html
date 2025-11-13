@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 11</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 150px 150px 150px 150px;
+      grid-template-rows: 150px 150px 150px;
+      gap: 10px;
+      background-color: #1a2141;
+      padding: 10px;
+    }
+
+    .item {
+      border-radius: 1px;
+    }
+
+    .green {
+      background-color: #4CAF50;
+    }
+
+    .red {
+      background-color: #f44336;
+    }
+
+    .yellow {
+      background-color: #ffb300;
+    }
+
+    .item1 {
+      grid-row-start: 1;
+      grid-row-end: 4;
+    }
+
+    .item2 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    .item4 {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-end: 2;
+      grid-row-end: 3;
+    }
+
+    .item5 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .item6 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .item7 {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+
+    .item8 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="item item1 green"></div>
+    <div class="item item2 green"></div>
+    <div class="item item3 red"></div>
+    <div class="item item4 yellow"></div>
+    <div class="item item5 red"></div>
+    <div class="item item6 green"></div>
+    <div class="item item7 red"></div>
+    <div class="item item8 yellow"></div>
+
+
+  </div>
+  </div>
+
+  <h1>CSS GRID</h1>
+
+</body>
+
+</html>
