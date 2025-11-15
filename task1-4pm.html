@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 1t</title>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eee;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 10px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.top {
+  display: flex;
+  gap: 10px;
+}
+.menu1, .menu2 {
+  flex: 1;
+  background: purple;
+  color: white;
+}
+.middle {
+  display: flex;
+  gap: 10px;
+}
+.menu3 {
+  flex: 2;
+  background: orange;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu4, .menu5 {
+  flex: 1;
+  background: blue;
+  color: white;
+}
+.bottom {
+  display: flex;
+  gap: 10px;
+}
+.menu6, .menu7, .menu8 {
+  flex: 1;
+  background: pink;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row top">
+    <div class="box menu1">Menu1</div>
+    <div class="box menu2">Menu2</div>
+  </div>
+  <div class="row middle">
+    <div class="box menu3">Menu3</div>
+    <div class="right">
+      <div class="box menu4">Menu4</div>
+      <div class="box menu5">Menu5</div>
+    </div>
+  </div>
+  <div class="row bottom">
+    <div class="box menu6">Menu6</div>
+    <div class="box menu7">Menu7</div>
+    <div class="box menu8">Menu8</div>
+  </div>
+</div>
+</body>
+</html>
