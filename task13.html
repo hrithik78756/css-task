@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 13</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      width: 250px;
+      border: 1px solid #ddd;
+    }
+
+    .card-header {
+      color: white;
+      padding: 40px 0;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .react {
+      background: linear-gradient(45deg, #ff0080, #ff5733);
+    }
+
+    .vue {
+      background: linear-gradient(45deg, #ff00ff, #ff5733);
+    }
+
+    .angular {
+      background: linear-gradient(45deg, #ff00cc, #ff5733);
+    }
+
+    .jquery {
+      background: linear-gradient(45deg, #ff00dd, #ff5733);
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body p {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(45deg, #ff00cc, #ff5733);
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Responsive Flexbox Cards</h1>
+  <div class="container">
+    <div class="card">
+      <div class="card-header react">React</div>
+      <div class="card-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, recusandae!</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header vue">Vue</div>
+      <div class="card-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, recusandae!</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header angular">Angular</div>
+      <div class="card-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, recusandae!</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header jquery">JQuery</div>
+      <div class="card-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, recusandae!</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
